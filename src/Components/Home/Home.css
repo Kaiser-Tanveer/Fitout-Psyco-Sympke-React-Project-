@@ -1,0 +1,21 @@
+.home{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.data-title{
+    text-align: center;
+}
+
+.data-cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.calculation-cart{
+    background: rgb(12, 140, 244);
+    padding: 10px;
+}

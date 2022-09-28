@@ -1,0 +1,30 @@
+.data{
+    border: 1px solid gray;
+    box-shadow: 2px 3px 8px gray;
+    border-radius: 8px;
+}
+
+.data img{
+    width: 250px;
+}
+
+.data h2, h4{
+    padding: 10px;
+}
+
+.add-btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+    background-color: rgb(12, 140, 244);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.add-btn:hover{
+    background-color: #ffffff;
+    border: 2px solid rgb(12, 140, 244);
+    color: rgb(12, 140, 244);
+}
