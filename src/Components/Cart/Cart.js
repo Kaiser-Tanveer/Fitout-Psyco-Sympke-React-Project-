@@ -6,31 +6,13 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const Cart = () => {
-    // const addToDB = (num) => {
-
-    //     let objCart = {};
     
-    //     const storedCard = localStorage.getItem('objCart');
-    //     if(storedCard){
-    //         objCart = JSON.parse(storedCard);
-    //     }
-    
-    //     const existData = objCart.id;
-    //     if(existData){
-    //         const newData = parseInt(existData) + 1;
-    //         objCart[num] = newData;
-    //     }
-    //     else{
-    //         objCart[num] = 1;
-    //     }
-    //     localStorage.setItem('objCart', JSON.stringify(objCart));
-    // }
-
     //     // Add to Local Storage 
     //     const addRestTime1 = (num) => {
     //         addToDB(num)
     //     }
-        const notify = () => toast("Congratulations!!! You are done for Today!");
+        const notify = () => toast("Congratulations!!! You are done for Today!",
+        {position: 'top-center'});
     
     return (
         <div className='cart'>
