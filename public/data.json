@@ -2,43 +2,43 @@
 {
     "id": "01",
     "name": "Push Up",
-    "duration": "30",
-    "image": "../public/image/PushUp.png"
+    "duration": "30s",
+    "image": "./image/PushUp.png"
 },
 {
     "id": "02",
     "name": "Sit Up",
-    "duration": "30",
-    "image": "../public/image/SitUp.png"
+    "duration": "20s",
+    "image": "./image/SitUp.png"
 },
 {
     "id": "03",
     "name": "Pull Up",
-    "duration": "30",
-    "image": "../public/image/Athelet.jpg"
+    "duration": "20s",
+    "image": "./image/Athelet.jpg"
 },
 {
     "id": "04",
     "name": "Bi-Cheps Build",
-    "duration": "30",
-    "image": "../public/image/Bycheps.png"
+    "duration": "40s",
+    "image": "./image/Bycheps.png"
 },
 {
     "id": "05",
     "name": "Sit Up",
-    "duration": "30",
-    "image": "../public/image/SitUp.png"
+    "duration": "15s",
+    "image": "./image/SitUp.png"
 },
 {
     "id": "06",
     "name": "Burble",
-    "duration": "30",
-    "image": "../public/image/burbell.jpg"
+    "duration": "20s",
+    "image": "./image/burbell.jpg"
 },
 {
     "id": "07",
     "name": "Dumble",
-    "duration": "30",
-    "image": "../public/image/Dumble.png"
+    "duration": "35s",
+    "image": "./image/Dumble.png"
 }
 ]

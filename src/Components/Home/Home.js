@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Data from '../Data/Data';
 import './Home.css'
 
@@ -11,9 +12,10 @@ const Home = () => {
         .then(data => setAllData(data))
     },[])
     return (
-        <div>
-            <h1 className='data-title'>Fit-Out-Syco</h1>
-            <div className='home'>
+        <div className='home'>
+            <div className='data-wrapper'>
+            <h1 className='data-title'><img className='logo' src="./image/logo.png" alt="" /> <span className='colored-part'>Fit Out</span> Psyco</h1>
+            <h2 className='data-title'>Complete Your Daily Steps</h2>
                 <div className="data-cart">
                 {
                 allData.map(data => <Data
@@ -22,10 +24,10 @@ const Home = () => {
                 ></Data>)
                 }
                 </div>
-                <div className="calculation-cart">
-                    <h2>Kaiser Tanveer</h2>
-                </div>
             </div>
+                <div className="calculation-cart">
+                    <Cart></Cart>
+                </div>
         </div>
     );
 };

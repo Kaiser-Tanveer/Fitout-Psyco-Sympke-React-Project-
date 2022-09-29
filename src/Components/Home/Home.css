@@ -3,8 +3,20 @@
     grid-template-columns: 4fr 1fr;
 }
 
+.logo{
+    width: 40px;
+}
+
 .data-title{
     text-align: center;
+}
+
+.data-wrapper h1{
+    font-size: 3rem;
+}
+
+.colored-part{
+    color: rgb(12, 140, 244);
 }
 
 .data-cart{
