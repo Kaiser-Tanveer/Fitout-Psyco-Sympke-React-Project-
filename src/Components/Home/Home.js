@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Data from '../Data/Data';
+import Quest from '../Quests/Quest';
 import './Home.css'
+
 
 const Home = () => {
     const [allData, setAllData] = useState([]);
@@ -24,6 +26,7 @@ const Home = () => {
                 ></Data>)
                 }
                 </div>
+                <Quest></Quest>
             </div>
                 <div className="calculation-cart">
                     <Cart></Cart>

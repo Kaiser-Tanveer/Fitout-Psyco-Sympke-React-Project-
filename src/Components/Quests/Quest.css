@@ -1,0 +1,11 @@
+.quest{
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.q-title{
+    background: rgb(12, 140, 244);
+    color: #ffffff;
+    padding: 10px;
+}

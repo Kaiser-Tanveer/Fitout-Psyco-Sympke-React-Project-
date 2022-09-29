@@ -45,9 +45,13 @@
 .exercise-time{
     background: #ffffff;
     padding: 8px;
-    color: #000;
+    color: rgba(31, 23, 23, 0.8);
     font-weight: bold;
     border-radius: 6px;
+}
+
+#exercise-time,#rest-time{
+    color: #000;
 }
 
 .toast-btn{
