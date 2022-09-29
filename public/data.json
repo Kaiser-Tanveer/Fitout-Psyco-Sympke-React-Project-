@@ -15,7 +15,7 @@
     "id": "03",
     "name": "Pull Up",
     "duration": "20s",
-    "image": "./image/Athelet.jpg"
+    "image": "./image/pullUp.jpg"
 },
 {
     "id": "04",
@@ -25,9 +25,9 @@
 },
 {
     "id": "05",
-    "name": "Sit Up",
+    "name": "Athelets",
     "duration": "15s",
-    "image": "./image/SitUp.png"
+    "image": "./image/Athelet.jpg"
 },
 {
     "id": "06",
