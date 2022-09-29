@@ -1,6 +1,7 @@
 .cart{
     position: fixed;
     color: #ffffff;
+    padding: 10px;
 }
 
 .personal-info h2{
@@ -18,6 +19,61 @@
 .personal-info p{
     margin-left: 20px;
 }
+
+.btn-group{
+    display: flex;
+    margin: auto;
+}
+
+.rest-btn{
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 0;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5000px;
+}
+
+.rest-btn:hover{
+    background: rgb(12, 140, 244);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.exercise-time{
+    background: #ffffff;
+    padding: 8px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.toast-btn{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #ffffff;
+    border: 2px solid rgb(12, 140, 244);
+    border-radius: 6px;
+    color: rgb(12, 140, 244);
+}
+
+.toast{
+    margin-top: 40px;
+}
+
+.toast-btn:hover{
+    background-color: rgb(233, 0, 241);
+    border: 1px solid #000;
+    color: #ffffff;
+    box-shadow: 2px 3px 12px rgb(233, 0, 241);
+}
+
+
+
 
 /* Media Query for Mobile Screen  */
 @media screen and (max-width: 767px){
