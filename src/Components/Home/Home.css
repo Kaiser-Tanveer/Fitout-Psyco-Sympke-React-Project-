@@ -31,3 +31,37 @@
     background: rgb(12, 140, 244);
     padding: 10px;
 }
+
+/* Media Query for Tablet Screen */
+@media screen and (max-width: 1160px) {
+    .home{
+        grid-template-columns: 4fr 2fr;
+    }
+
+    .data-cart{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+/* Media Query for Mobile Screen */
+@media screen and (max-width: 767px) {
+    .home{
+        grid-template-columns: 1fr;
+    }
+
+    .data-cart{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .calculation-cart{
+        width: 76%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 2px 3px 12px;
+    }
+}
