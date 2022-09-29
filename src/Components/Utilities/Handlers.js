@@ -7,11 +7,14 @@ const getSecondsValues = (id) =>{
     return restSecondValue;
 }
 
+
 // Update Seconds Handler
 const addRestTime1 = () => {
     const value = getSecondsValues('rest-second-1')
     document.getElementById('rest-time').innerText = value;
+    console.log(value);
 }
+
 const addRestTime2 = () => {
     const value = getSecondsValues('rest-second-2')
     console.log(value);
