@@ -26,10 +26,12 @@ const Home = () => {
                 ></Data>)
                 }
                 </div>
-                <Quest></Quest>
             </div>
                 <div className="calculation-cart">
                     <Cart></Cart>
+                </div>
+                <div>
+                <Quest></Quest>
                 </div>
         </div>
     );

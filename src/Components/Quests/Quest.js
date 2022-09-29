@@ -17,7 +17,6 @@ const Quest = () => {
 <br />
             <div className="q2">
                 <h3 className='q-title'>Q-2: Difference Between Props and State.</h3>
-                <p>
                     <strong>Props:</strong>
                     <ul>
                         <li>Props read only.</li>
@@ -28,7 +27,6 @@ const Quest = () => {
                         <li>State changes. It can be Asynchronous.</li>
                         <li>State can be Modified by this.state().</li>
                     </ul>
-                </p>
             </div>
 
             <br />
